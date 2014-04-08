@@ -1,7 +1,10 @@
 Trimmer Plugin - Trim all inputs and turn inputs that contains only blanks into null.
 ====
+#### As of grails >= 2.3 and later this plugin is not needed any longer because the default behaviour has changed to exactly what this plugin was achieving.
 
-This plugin applies trimming to all \<g:textField /> and \<input type="text" /> fields of the application.
+
+
+This plugin applies trimming to all ```<g:textField />``` and ```<input type="text" />``` fields of the application.
 
 Caveat
 ---
@@ -11,4 +14,4 @@ If there are ideas of how to make this a configurable behavior (be able to turn 
 
 Credit
 ---
-This plugin is based on GRAILS-6901 so the credits go to Göran Ehrsson.
+This plugin is based on [GRAILS-6901](http://jira.grails.org/browse/GRAILS-6901) so the credits go to Göran Ehrsson.
